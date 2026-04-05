@@ -1,0 +1,114 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --muted-color: #888888;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.container-custom {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-full {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.main-intro {
+    font-size: clamp(2rem, 5vw, 4.5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -2px;
+}
+
+.main-intro span {
+    color: var(--muted-color);
+}
+
+.hero-footer {
+    position: absolute;
+    bottom: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.read-more { font-size: 0.9rem; color: var(--muted-color); }
+
+.contact-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.label { color: var(--muted-color); margin-right: 10px; }
+
+.portfolio-section {
+    padding: 150px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+.portfolio-section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.coming-soon-box {
+    height: 400px;
+    background: #f9f9f9;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #ccc;
+}
+
+.reveal-text {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 10px;
+    color: #eee;
+}
+
+.minimal-form input, .minimal-form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.minimal-form button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
