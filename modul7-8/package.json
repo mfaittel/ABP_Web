@@ -1,0 +1,12 @@
+{
+  "name": "tugas-crud-nodejs",
+  "version": "1.0.0",
+  "description": "Aplikasi CRUD dengan Node.js, Bootstrap, dan DataTables",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
