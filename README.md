@@ -1,4 +1,4 @@
-# Tugas Praktikum Aplikasi Berbasis Platform - Aplikasi CRUD Mahasiswa (Node.js)
+# Tugas Praktikum ABP (Pertemuan 5) - Aplikasi CRUD Mahasiswa (Node.js)
 
 Aplikasi web sederhana untuk mengelola data mahasiswa menggunakan operasi CRUD penuh (Create, Read, Update, Delete).
 
